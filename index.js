@@ -23,4 +23,26 @@
 // document.write("<br>")
 // var searchLetter = "n"
 // var index = country.indexOf("n")
-// document.write("Index of 'n': " + inde)
+// document.write("Index of 'n': " + index)
+
+//Q4.
+
+// var string = "Hello World"
+
+// var lastIndex = string.lastIndexOf("l")
+
+// document.write("String: "+ string)
+// document.write("<br>")
+// document.write("Last index 'l': " + lastIndex)
+
+// Q5.
+
+// var country = "Pakistani"
+// document.write("String: " + country)
+// document.write("<br>")
+// var i = 3;
+
+// char = country[i]
+
+// document.write("Character at index 3: " +char)
+
