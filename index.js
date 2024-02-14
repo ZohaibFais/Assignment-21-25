@@ -204,5 +204,102 @@
 
 //Q19.
 
-var input1 = prompt("Enter: ")
-var input2 = prompt("Enter: ")
+// var firstString = prompt("Enter the first string:");
+// var secondString = prompt("Enter the second string:");
+
+// if (firstString === secondString) {
+//         document.write("Both strings are equal.");
+//     } 
+//     else if (firstString > secondString) {
+//         document.write(firstString + " is greater than" + " "+ secondString);
+//     } 
+//     else {
+//         document.write( secondString+ " is greater than " +" "+ firstString);
+//         }
+
+
+//Q20.
+// var isValid = false;
+// var password = prompt("Enter password: ");
+// var hasAlpha = false;
+// var hasNum = false;
+
+// var length = password.length;
+// while (!isValid || !hasAlpha || !hasNum) {
+//     if (length > 6) {
+//         alert("Please Enter a valid Password");
+//         break;
+//     }
+//     if (password.charCodeAt(0) >= 48 && password.charCodeAt(0) <= 57) {
+//         alert("Password cannot start with a number");
+//         break;
+//     }
+//     for (var i = 0; i < length; i++) {
+//         if (password.charCodeAt(i) >= 48 && password.charCodeAt(i) <= 57) {
+//             hasNum = true;
+//         } else if ((password.charCodeAt(i) >= 65 && password.charCodeAt(i) <= 90) || (password.charCodeAt(i) >= 97 && password.charCodeAt(i) <= 122)) {
+//             hasAlpha = true;
+//         }
+//     }
+//     if (hasAlpha && hasNum) {
+//         isValid = true;
+//         alert("Correct Password");
+//         break;
+//     }
+// }
+
+//Q21.
+
+// var university = "University of Karachi"
+// var length = university.length
+
+// for (var i =0 ; i<length; i++){
+//     char = university.charAt(i)
+//     document.write(char + "<br>")
+// }
+
+//Q22.
+
+// var userInput = prompt("Enter: ")
+// var length = userInput.length
+
+// var char = userInput.charAt(length-1)
+// document.write(char)
+
+//Q23.
+
+// var userInput = prompt("Enter sentence: ");
+// userInput = userInput.toLowerCase();
+// var wordSearch = prompt("Enter the word to search for: ");
+// wordSearch = wordSearch.toLowerCase();
+
+// var count = 0;
+// var words = userInput.split(" "); 
+
+// for (var i = 0; i < words.length; i++) {
+//     if (words[i] === wordSearch) {
+//         count++;
+//     }
+// }
+
+// document.write("The word '" + wordSearch + "' appears " + count + " times in the sentence.");
+
+//Q24.
+
+// var str = "Pakistan"
+// var vowelCount = 0
+// var consonants =  0
+// var length = str.length
+
+// for (var i = 0; i<length; i++){
+//     if (str.charAt(i) == "a" | str.charAt(i) == "e" | str.charAt(i) == "i"| str.charAt(i) == "o"| str.charAt(i) == "u" ){
+
+//         vowelCount++
+//     }
+//     else{
+//         consonants++
+//     }
+// }
+
+// document.write("Vowels: " + vowelCount + "<br>")
+// document.write("Consonants: " +consonants)
